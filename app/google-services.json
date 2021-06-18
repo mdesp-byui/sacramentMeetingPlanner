@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "294332201960",
+    "project_id": "sacramentagenda",
+    "storage_bucket": "sacramentagenda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294332201960:android:99707e6be782ff4822425d",
+        "android_client_info": {
+          "package_name": "com.example.sacramentmeetingplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294332201960-goi25tbjghkv7rr42bto41vm0eic9ina.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVVpFLGFrS-Od6ionj4w4DAfQXaaGJG3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294332201960-goi25tbjghkv7rr42bto41vm0eic9ina.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
