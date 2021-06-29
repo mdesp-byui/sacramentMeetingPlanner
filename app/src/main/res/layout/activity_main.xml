@@ -4,40 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_200"
+    android:background="@color/teal_700"
     tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="413dp"
+        android:layout_height="94dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
-        android:layout_marginLeft="124dp"
-        android:background="@color/white"
-        android:fontFamily="@font/almendra_sc"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:fontFamily="@font/alfa_slab_one"
         android:text="Welcome to Our Ward!"
-        android:textColor="@color/black"
+        android:textColor="#B3FFF8"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.463" />
+        app:layout_constraintVertical_bias="0.045" />
 
     <Button
         android:id="@+id/logoutBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:fontFamily="@font/almendra_sc"
+        android:layout_marginTop="592dp"
+        android:fontFamily="@font/abril_fatface"
+        android:onClick="logout"
         android:text="LOGOUT"
         android:textColor="@color/black"
         android:textSize="20sp"
-        android:onClick="logout"
-        app:backgroundTint="@color/design_default_color_error"
+        app:backgroundTint="#B3FFF8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 

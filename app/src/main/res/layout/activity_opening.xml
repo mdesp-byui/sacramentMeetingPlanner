@@ -4,21 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/design_default_color_secondary"
+    android:background="@color/teal_700"
     tools:context=".Opening">
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="431dp"
+        android:layout_height="98dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/Opening"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
-        android:layout_marginLeft="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
         android:layout_marginTop="24dp"
         android:background="@color/black"
-        android:fontFamily="@font/abril_fatface"
+        android:fontFamily="@font/alfa_slab_one"
         android:padding="10dp"
         android:text="Ward Sacrament Meeting"
-        android:textColor="@color/white"
+        android:textColor="#B3FFF8"
         android:textSize="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -44,8 +53,8 @@
         android:ems="10"
         android:inputType="date"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="142dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="142dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
