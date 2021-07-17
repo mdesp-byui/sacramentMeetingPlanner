@@ -23,7 +23,7 @@ import org.jetbrains.annotations.NotNull;
 public class Login extends AppCompatActivity {
     EditText emailAd, psword;
     Button Registerbtn;
-    TextView loginbtn;
+    TextView loginbtn, mainActivity;
     ProgressBar progressBar;
     FirebaseAuth firebaseAuth;
 
@@ -35,6 +35,7 @@ public class Login extends AppCompatActivity {
         psword = findViewById(R.id.Password);
         Registerbtn = findViewById(R.id.Registerbton);
         loginbtn = findViewById(R.id.loginbton);
+        mainActivity = findViewById(R.id.mainActivity);
         progressBar = findViewById(R.id.progressBar);
         firebaseAuth = FirebaseAuth.getInstance();
 
@@ -82,5 +83,14 @@ public class Login extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), Register.class));
             }
         });
+
+        mainActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), Agenda.class));
+            }
+        });
+
+
     }
 }

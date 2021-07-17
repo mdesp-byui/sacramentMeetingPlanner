@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.sacramentmeetingplanner">
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -11,14 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SacramentMeetingPlanner">
-        <activity
-            android:name=".Agenda"
-            android:label="@string/title_activity_agenda"
-            android:theme="@style/Theme.SacramentMeetingPlanner.NoActionBar"></activity>
-        <activity android:name=".Login" />
+        <activity android:name=".Login"></activity>
         <activity android:name=".Register" />
-        <activity android:name=".Opening" />
+        <activity android:name=".Agenda" />
+        <activity android:name=".Announcements" />
+        <activity android:name=".SacramentProgram" />
+        <activity android:name=".StakeBusiness" />
+        <activity android:name=".WardBusiness" />
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
