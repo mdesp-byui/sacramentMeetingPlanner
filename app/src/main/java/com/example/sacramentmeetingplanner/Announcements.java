@@ -22,6 +22,21 @@ public class Announcements extends AppCompatActivity {
         list =findViewById(R.id.textList);
 
     }
+
+    @Override
+    public void onPause() {
+        super.onPause();  // Always call the superclass method first
+
+
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();  // Always call the superclass method first
+
+
+    }
+
     public void returnAgenda (View view){
         Intent intent = new Intent(Announcements.this, Agenda.class);
         startActivity(intent);

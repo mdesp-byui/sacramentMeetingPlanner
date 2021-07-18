@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AutoCompleteTextView;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -13,6 +14,7 @@ public class WardBusiness extends AppCompatActivity {
     TextView textView3;
     AutoCompleteTextView textView4, textView5;
     EditText editMultiline, editMultiline2;
+    Button agendaButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,11 +25,26 @@ public class WardBusiness extends AppCompatActivity {
         textView5 = findViewById(R.id.textView5);
         editMultiline = findViewById(R.id.editMultiLine);
         editMultiline2 = findViewById(R.id.editMultiLine2);
+        agendaButton = findViewById(R.id.wardButtonAgenda);
 
     }
 
     public void backAgenda(View view){
         Intent intent = new Intent(WardBusiness. this, Agenda.class);
         startActivity(intent);
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();  // Always call the superclass method first
+
+
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();  // Always call the superclass method first
+
+
     }
 }

@@ -46,4 +46,18 @@ public class SacramentProgram extends AppCompatActivity {
         Intent intent = new Intent(SacramentProgram. this, Agenda.class);
         startActivity(intent);
     }
+
+    @Override
+    public void onPause() {
+        super.onPause();  // Always call the superclass method first
+
+
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();  // Always call the superclass method first
+
+
+    }
 }

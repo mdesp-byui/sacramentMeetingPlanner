@@ -28,4 +28,18 @@ public class StakeBusiness extends AppCompatActivity {
         Intent intent = new Intent(StakeBusiness. this, Agenda.class);
         startActivity(intent);
     }
+
+    @Override
+    public void onPause() {
+        super.onPause();  // Always call the superclass method first
+
+
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();  // Always call the superclass method first
+
+
+    }
 }
