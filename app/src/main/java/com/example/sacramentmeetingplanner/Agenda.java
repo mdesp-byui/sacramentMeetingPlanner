@@ -1,3 +1,7 @@
+/* Agenda activity stores the Sacrament Meeting opening information
+   It also has links to all of the other activities which can be used to input information
+ */
+
 package com.example.sacramentmeetingplanner;
 
 import androidx.appcompat.app.AppCompatActivity;

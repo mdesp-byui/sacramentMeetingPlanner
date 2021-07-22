@@ -7,6 +7,20 @@
     android:background="@color/teal_700"
     tools:context=".SacramentProgram">
 
+    <Button
+        android:id="@+id/saveSacrament"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Save"
+        android:textColor="#B3FFF8"
+        android:textSize="16sp"
+        app:backgroundTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonAgenda"
+        app:layout_constraintTop_toBottomOf="@+id/textNumber" />
+
     <View
         android:id="@+id/divider8"
         android:layout_width="419dp"
@@ -358,21 +372,17 @@
 
     <Button
         android:id="@+id/buttonAgenda"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="197dp"
+        android:layout_height="66dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:ems="10"
         android:fontFamily="@font/abril_fatface"
         android:onClick="buttonAgenda"
         android:text="Back to Agenda"
         android:textColor="#B3FFF8"
         app:backgroundTint="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textNumber" />
 </androidx.constraintlayout.widget.ConstraintLayout>
