@@ -11,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SacramentMeetingPlanner">
-        <activity android:name=".EditActivity"></activity>
+        <activity
+            android:name=".ViewSavedAgenda"
+            android:label="@string/title_activity_view_saved_agenda"
+            android:theme="@style/Theme.SacramentMeetingPlanner.NoActionBar"></activity>
+        <activity android:name=".EditActivity" />
         <activity android:name=".MeetingPlan" />
         <activity
             android:name=".Template"

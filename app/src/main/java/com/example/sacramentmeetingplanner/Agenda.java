@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class Agenda extends AppCompatActivity {
     TextView agenda, inputDate, textName,presiding,conducting,visitors, textHymn, invocation,ordinances;
     EditText date,textName2, textName3, textName4, textName5, hymnNumber;
-    Button announcements,buttonWard, buttonStake,sacrament;
+    Button announcements,buttonWard, buttonStake,sacrament, returnToMenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +38,7 @@ public class Agenda extends AppCompatActivity {
         buttonWard = findViewById(R.id.buttonWard);
         buttonStake = findViewById(R.id.buttonStake);
         sacrament = findViewById(R.id.sacrament);
+        returnToMenu = findViewById(R.id.returnToMenu);
 
     }
 
@@ -61,17 +62,8 @@ public class Agenda extends AppCompatActivity {
         startActivity(intent);
     }
 
-    @Override
-    public void onPause() {
-        super.onPause();  // Always call the superclass method first
-
-
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();  // Always call the superclass method first
-
-
+    public void returnToMenu(View view){
+        Intent intent = new Intent(Agenda.this, MainActivity.class);
+        startActivity(intent);
     }
 }

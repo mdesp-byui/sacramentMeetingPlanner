@@ -29,4 +29,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void viewAgenda(View view){
+        Intent intent = new Intent(MainActivity.this, ViewSavedAgenda.class);
+        startActivity(intent);
+    }
+
 }

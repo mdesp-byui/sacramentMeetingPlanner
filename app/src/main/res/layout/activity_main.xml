@@ -8,6 +8,22 @@
     tools:context=".MainActivity">
 
 
+    <Button
+        android:id="@+id/viewSavedAgenda"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:fontFamily="@font/abril_fatface"
+        android:onClick="viewAgenda"
+        android:text="View Agenda"
+        android:textColor="#B3FFF8"
+        android:textSize="16sp"
+        app:backgroundTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
     <View
         android:id="@+id/divider4"
         android:layout_width="415dp"
@@ -44,7 +60,7 @@
         android:layout_marginTop="68dp"
         android:fontFamily="@font/abril_fatface"
         android:onClick="opening"
-        android:text="Agenda"
+        android:text="Edit Agenda"
         android:textColor="#B3FFF8"
         android:textSize="16sp"
         app:backgroundTint="@color/black"
