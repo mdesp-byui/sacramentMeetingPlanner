@@ -1,3 +1,6 @@
+/* ViewSavedAgenda is the activity which will let you use a RecyclerView to  view the saved info
+* */
+
 package com.example.sacramentmeetingplanner;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,7 +28,7 @@ public class ViewSavedAgenda extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_saved_agenda);
-        agendaList = (RecyclerView) findViewById(R.id.agendaViewer);
+        agendaList = findViewById(R.id.agendaViewer);
     }
     public void returnToMenu(View view) {
         Intent intent = new Intent(ViewSavedAgenda.this, MainActivity.class);

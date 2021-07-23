@@ -1,3 +1,7 @@
+/*
+    The main activity has buttons to go to the agenda editor, the agenda viewer, and to log out
+ */
+
 package com.example.sacramentmeetingplanner;
 
 import androidx.appcompat.app.AppCompatActivity;

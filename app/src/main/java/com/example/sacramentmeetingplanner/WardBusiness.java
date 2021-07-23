@@ -1,3 +1,6 @@
+/* Ward Business will capture the input for any releases and callings for the ward
+* */
+
 package com.example.sacramentmeetingplanner;
 
 import androidx.appcompat.app.AppCompatActivity;

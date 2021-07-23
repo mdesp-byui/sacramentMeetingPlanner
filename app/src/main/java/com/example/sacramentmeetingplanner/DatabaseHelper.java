@@ -1,3 +1,7 @@
+/* The DatabaseHelper is a class to access the SQLite database, so that things can be easily edited
+and then closed again to manage resources better
+ */
+
 package com.example.sacramentmeetingplanner;
 
 import android.content.ContentValues;

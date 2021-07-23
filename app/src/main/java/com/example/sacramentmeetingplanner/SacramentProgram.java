@@ -1,3 +1,7 @@
+/* SacramentProgram activity has fields to fill out for the portion of the program which
+happens after the introduction, starting from the Sacrament Hymn and continuing to the end of the meeting
+* */
+
 package com.example.sacramentmeetingplanner;
 
 import androidx.appcompat.app.AppCompatActivity;

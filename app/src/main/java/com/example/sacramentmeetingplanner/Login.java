@@ -1,3 +1,7 @@
+/* Login activity connects with Firebase and logs in
+it also has a button to bypass logging in
+* */
+
 package com.example.sacramentmeetingplanner;
 
 import androidx.annotation.NonNull;
@@ -22,7 +26,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class Login extends AppCompatActivity {
     EditText emailAd, psword;
-    Button Registerbtn;
+    Button Registerbton;
     TextView loginbtn, mainActivity;
     ProgressBar progressBar;
     FirebaseAuth firebaseAuth;
@@ -33,7 +37,7 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         emailAd = findViewById(R.id.Email);
         psword = findViewById(R.id.Password);
-        Registerbtn = findViewById(R.id.Registerbton);
+        Registerbton = findViewById(R.id.Registerbton);
         loginbtn = findViewById(R.id.loginbton);
         mainActivity = findViewById(R.id.mainActivity);
         progressBar = findViewById(R.id.progressBar);

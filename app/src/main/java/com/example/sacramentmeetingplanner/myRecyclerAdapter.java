@@ -1,3 +1,7 @@
+/* myRecyclerAdapter is an adaptor used to convert AgendaModel objects into text to view in the
+    RecyclerView in the ViewSavedAgenda activity
+* */
+
 package com.example.sacramentmeetingplanner;
 
 import android.view.LayoutInflater;

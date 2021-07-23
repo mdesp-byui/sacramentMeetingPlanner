@@ -1,3 +1,6 @@
+/* The activity to register login info; automatically logs in upon register
+* */
+
 package com.example.sacramentmeetingplanner;
 
 import androidx.annotation.NonNull;

@@ -1,3 +1,7 @@
+/* Stake Business has a field to capture any Stake Business announcements,
+    even if it's just saying who will be giving the announcements for the Stake
+* */
+
 package com.example.sacramentmeetingplanner;
 
 import androidx.appcompat.app.AppCompatActivity;
